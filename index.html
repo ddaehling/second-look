@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#e5e2fb">
+  <meta name="description" content="A research compendium of saved AI and technology posts.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="twitter:dnt" content="on">
+  <title>Second Look — Your bookmark compendium</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/archivo-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/archivo-black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20261018-weekly">
+  <script src="app.js?v=20261018-weekly" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="Second Look home"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M3 2h18v24l-9-5-9 5z"/><path d="M8 8h8M8 13h5"/></svg><span>Second Look</span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#/" data-nav="all">Index <span id="nav-total"></span></a>
+      <a href="#/queue" data-nav="queue">Reading queue <span id="nav-queue">0</span></a>
+      <a href="#/read" data-nav="read">Read <span id="nav-read">0</span></a>
+      <a href="#/other" data-nav="other">Other bookmarks <span id="nav-other"></span></a>
+    </nav>
+    <a class="about-link" href="#/about">About this collection</a>
+  </header>
+  <main id="main" tabindex="-1"><div class="load-state" role="status"><div class="loading-bar"></div><h1>Opening your collection.</h1><p>Loading the bookmark reports and their sources.</p></div></main>
+  <footer class="site-footer"><span>Second Look <span class="footer-divider">/</span> A place to return to.</span><div><button type="button" class="text-button" id="export-state">Export reading state</button><button type="button" class="text-button" id="import-trigger">Import reading state</button><input type="file" id="import-state" accept="application/json,.json" hidden><a href="#/about">Sources &amp; methodology</a></div></footer>
+  <div class="toast" role="status" aria-live="polite" id="toast" hidden></div>
+  <noscript><div class="no-script">This reading website needs JavaScript to display the collection. The complete reports remain available in <a href="data.json">data.json</a>.</div></noscript>
+</body>
+</html>
